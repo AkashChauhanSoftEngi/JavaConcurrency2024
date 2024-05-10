@@ -209,7 +209,7 @@ class WebCount {
 ```
 
 ## 7. What is Thread Life Cycle? What are the different states of the Thread Life Cycle?
-![image](https://github.com/AkashChauhanSoftEngi/Java_Programming_Practice/assets/23252844/6d261abb-a7bb-444c-b91c-7ad733f64b8f)
+![image](https://github.com/AkashChauhanSoftEngi/JavaConcurrency2024/assets/23252844/7ab68912-1e9b-4df3-a587-bf5201895340)
 
 > 1. New: When a thread lies in the new state, its code is yet to be run and such threads are waiting to be added in Thread Scheduler.
 > 2. Runnable: Now the thread is added into a “Thread Scheduler” where threads wait for their turn to get the CPU.
