@@ -259,20 +259,7 @@ class SharedResource {
 				e.printStackTrace();
 			}
 		}
-		int temp = this.amount - amount;
-
-//		this.amount -= amount;
-
-		if (temp < 0) {
-			System.out.println("Negative Balance");
-			try {
-				wait();
-			} catch (Exception e) {
-			}
-		}
-
-		this.amount = temp;
-
+		this.amount -= amount;
 		System.out.println("Now total amount is: " + this.amount);
 		System.out.println("withdraw completed...");
 
